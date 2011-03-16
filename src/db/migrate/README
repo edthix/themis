@@ -1,0 +1,7 @@
+Add your migration files to this directory. The easiest way to create migration
+is using the generate script. To generate a migration called "create-books"
+using generate use:
+
+lein generate migration create-books
+
+A file called "001-create-books.clj" will be created in this directory.
