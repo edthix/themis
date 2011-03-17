@@ -17,3 +17,52 @@ DEBUG [conjure.core.server.server]: Requested uri: /home/index
 DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
 DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
 DEBUG [conjure.core.server.ring-adapter]: Response time: 463 ms
+DEBUG [conjure.core.server.server]: Requested uri: /home/index
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 463 ms
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+DEBUG [conjure.core.db.flavors.mysql]: Create table: :sessions with specs: (("`id`" "INT" "NOT NULL" "AUTO_INCREMENT" "PRIMARY KEY") ["`created_at`" "DATETIME"] ("`session_id`" "VARCHAR(255)") ["`data`" "TEXT"])
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+DEBUG [conjure.core.db.flavors.mysql]: Create table: :sessions with specs: (("`id`" "INT" "NOT NULL" "AUTO_INCREMENT" "PRIMARY KEY") ["`created_at`" "DATETIME"] ("`session_id`" "VARCHAR(255)") ["`data`" "TEXT"])
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+DEBUG [conjure.core.db.flavors.mysql]: Create table: :sessions with specs: (("`id`" "INT" "NOT NULL" "AUTO_INCREMENT" "PRIMARY KEY") ["`created_at`" "DATETIME"] ("`session_id`" "VARCHAR(255)") ["`data`" "TEXT"])
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+DEBUG [conjure.core.db.flavors.mysql]: Create table: :sessions with specs: (("`id`" "INT" "NOT NULL" "AUTO_INCREMENT" "PRIMARY KEY") ["`created_at`" "DATETIME"] ("`session_id`" "VARCHAR(255)") ["`data`" "TEXT"])
+INFO  [conjure.core.server.server]: Server Initialized.
+INFO  [conjure.core.server.server]: Initializing plugins...
+INFO  [conjure.core.server.server]: Plugins initialized.
+INFO  [conjure.core.server.server]: Initializing app controller...
+INFO  [conjure.core.server.server]: App controller initialized.
+DEBUG [conjure.core.server.server]: Requested uri: /home/index
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 435 ms
+DEBUG [conjure.core.server.server]: Requested uri: /home/index
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 439 ms
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+INFO  [conjure.core.server.server]: Server Initialized.
+INFO  [conjure.core.server.server]: Initializing plugins...
+INFO  [conjure.core.server.server]: Plugins initialized.
+INFO  [conjure.core.server.server]: Initializing app controller...
+INFO  [conjure.core.server.server]: App controller initialized.
+DEBUG [conjure.core.server.server]: Requested uri: /home/index
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 1469 ms
+DEBUG [conjure.core.server.server]: Requested uri: /
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 523 ms
+DEBUG [conjure.core.db.flavors.mysql]: Executing query: ["SELECT * FROM `sessions` LIMIT 1"]
+INFO  [conjure.core.server.server]: Server Initialized.
+INFO  [conjure.core.server.server]: Initializing plugins...
+INFO  [conjure.core.server.server]: Plugins initialized.
+INFO  [conjure.core.server.server]: Initializing app controller...
+INFO  [conjure.core.server.server]: App controller initialized.
+DEBUG [conjure.core.server.server]: Requested uri: /
+DEBUG [conjure.core.controller.util]: Running action: controllers.home-controller/index
+DEBUG [conjure.core.binding.util]: Running binding: bindings.home.index
+DEBUG [conjure.core.server.ring-adapter]: Response time: 1552 ms
